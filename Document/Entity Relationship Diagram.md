@@ -29,5 +29,3 @@ Weather Data → Prediction: Each weather record generates one prediction result
 Machine Learning Model → Prediction: One model can generate multiple prediction results (One-to-Many).
 
 This ER model supports efficient management of weather inputs, machine learning models, and flood prediction records.
-
-
