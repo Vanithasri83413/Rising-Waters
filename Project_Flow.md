@@ -1,5 +1,5 @@
 ```mermaid
-flowchart LR
+flowchart TB
     A([🚀 Start])
     B[📥 Data Collection]
     C[📊 Data Analysis & Visualization]
