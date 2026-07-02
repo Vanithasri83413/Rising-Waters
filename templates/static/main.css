@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dcdad1;
+}
+
+/* Navbar Style */
+.navbar {
+    background-color: #000000;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: #4cd137;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links a, .home-btn-right {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.nav-links a.active {
+    border-bottom: 2px solid #4cd137;
+}
+
+/* Home Section Layout */
+.hero-container {
+    padding: 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1547683905-f686c993aae5?q=80&w=1200');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 250px;
+}
+.title-green {
+    color: #4cd137;
+    margin-top: 0;
+}
+.intro-text {
+    line-height: 1.6;
+    max-width: 900px;
+}
+
+/* Form Layout */
+.form-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+.btn-predict {
+    margin-top: 25px;
+    padding: 10px 25px;
+    background-color: #ffffff;
+    border: 1px solid #999;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Result Cards */
+.result-card {
+    max-width: 600px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+.btn-back {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
